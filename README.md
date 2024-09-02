@@ -1,7 +1,21 @@
 
-# Welcome to your CDK Python project!
+# Welcome to your CDK Python Prompt Flow project!
 
-This is a blank project for CDK development with Python.
+This particular CDK construct is a demo to use CDK to create a simple PromptFlow that contains Input Node connecting to the Output Node. This is demo example that highlights 
+how PromptFlow in Bedrock can be created with Infrastructre as a Code. Here are the instructions to follow:
+
+#Step1: Clone this GitHub repository to your dev environment. Follow the steps here:
+https://learn.microsoft.com/en-us/visualstudio/version-control/git-clone-repository?view=vs-2022
+
+#Step2: Configure and Deploy the CDK
+$ cdk synth cdk_promptflow_inputoutput_iam
+$ cdk deploy cdk_promptflow_inputoutput_iam
+
+#Step2: Once you are done reviewing the prompt flow in the Bedrock Console of AWS, then don't forget to destroy
+$ cdk destroy cdk_promptflow_inputoutput_iam
+
+
+# Instructions for CDK development with Python #
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
