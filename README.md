@@ -13,6 +13,10 @@ $ cdk synth cdk_promptflow_inputoutput_iam
 $ cdk deploy cdk_promptflow_inputoutput_iam
 ```
 
+This is how the sample PromptFlow will be rendered in the Bedrock Flow console.
+<img width="568" alt="Screenshot 2024-09-02 at 13 32 37" src="https://github.com/user-attachments/assets/1a69f8d4-642e-4261-8ea7-d70e4557b2df">
+
+
 #Step3: Once you are done reviewing the prompt flow in the Bedrock Console of AWS, then don't forget to destroy
 ```
 $ cdk destroy cdk_promptflow_inputoutput_iam
