@@ -8,12 +8,15 @@ how PromptFlow in Bedrock can be created with Infrastructre as a Code. Here are 
 https://learn.microsoft.com/en-us/visualstudio/version-control/git-clone-repository?view=vs-2022
 
 #Step2: Configure and Deploy the CDK
+```
 $ cdk synth cdk_promptflow_inputoutput_iam
 $ cdk deploy cdk_promptflow_inputoutput_iam
+```
 
-#Step2: Once you are done reviewing the prompt flow in the Bedrock Console of AWS, then don't forget to destroy
+#Step3: Once you are done reviewing the prompt flow in the Bedrock Console of AWS, then don't forget to destroy
+```
 $ cdk destroy cdk_promptflow_inputoutput_iam
-
+```
 
 # Instructions for CDK development with Python #
 
